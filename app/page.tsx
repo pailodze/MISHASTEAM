@@ -14,6 +14,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.center}>
         <Button title='რეგისტრაცია' />
+        <h1>ასწორებს ავტომატური დიფლოიმენთი!!!!!</h1>
       </div>
     </main>
   )
