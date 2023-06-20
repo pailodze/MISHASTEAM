@@ -23,7 +23,7 @@ export default () => {
             <button onClick={onAdd}>დამატება</button>
             <ul>
                 {
-                    tasks.map(task => <li>{task}</li>)
+                    tasks.map((task, idx) => <li key={idx}>{task}</li>)
                 }
             </ul>
         </div>
