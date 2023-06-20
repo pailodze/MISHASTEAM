@@ -5,7 +5,7 @@ export default () => {
     const [task, setTask] = useState('')
     const [tasks, setTasks] = useState(['ლექციაა გადასაღები', 'ალგორითმია დასამატებელი'])
 
-    const onChange = (e) => {
+    const onChange = (e: any) => {
         setTask(e.target.value)
     }
 
