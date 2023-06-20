@@ -76,21 +76,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-=======
   flex-direction: column;
   position: relative;
->>>>>>> 6d37d4b (displayname)
   padding: 4rem 0;
   gap: 12px;
 }
 
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 6d37d4b (displayname)
 .logo {
   position: relative;
 }
