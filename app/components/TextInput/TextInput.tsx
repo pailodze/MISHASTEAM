@@ -4,7 +4,7 @@ export default () => {
 
     const [text, setText] = useState('Misha');
 
-    const onChange = (e) => {
+    const onChange = (e: any) => {
         setText(e.target.value);
     }
 
